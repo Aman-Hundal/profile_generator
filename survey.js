@@ -6,7 +6,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("What's your name? Nicknames are also acceptable :) ", (answer) => {
-  rl.question("What's and activity you like doing? ", (answer2) => {
+  rl.question("What's an activity you like doing? ", (answer2) => {
     rl.question("What do you listen to while doing that? ", (answer3) => {
       rl.question("Whats your favourite meal? ", (answer4) => {
         rl.question("What is your superpower? In a few words, tell us what you are amazing at!", (answer5) => {
